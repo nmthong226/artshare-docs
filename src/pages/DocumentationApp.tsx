@@ -1,6 +1,5 @@
-import { Link, useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 import {
-  ArrowLeft,
   Book,
   Search,
   Image,
@@ -104,10 +103,6 @@ interface DocumentationAppProps {
 }
 
 const DocumentationApp: React.FC<DocumentationAppProps> = () => {
-  const navigate = useNavigate();
-  const handleNavigateToMainApp = () => {
-    navigate("/https://artsharezone-black.vercel.app/explore");
-  };
   return (
     <div className="bg-gradient-to-br from-slate-50 to-blue-50 min-h-screen">
       <div className="mx-auto px-2 xs:px-6 sm:px-14 py-8 max-w-5xl container">
@@ -121,13 +116,6 @@ const DocumentationApp: React.FC<DocumentationAppProps> = () => {
               Learn how to use the most of your creative platform
             </p>
           </div>
-          <button
-            onClick={handleNavigateToMainApp}
-            className="flex items-center gap-2 bg-white shadow-sm p-2 rounded-lg w-full xs:w-fit font-medium text-gray-600 hover:text-gray-800 transition-colors"
-          >
-            <ArrowLeft size={20} />
-            Back to App
-          </button>
         </div>
 
         {/* Feature Grid */}
