@@ -106,21 +106,21 @@ interface DocumentationAppProps {
 const DocumentationApp: React.FC<DocumentationAppProps> = ({ onClose }) => {
   return (
     <div className="bg-gradient-to-br from-slate-50 to-blue-50 min-h-screen">
-      <div className="mx-auto px-14 py-8 container">
+      <div className="mx-auto px-2 xs:px-6 sm:px-14 py-8 max-w-5xl container">
         {/* Header */}
-        <div className="flex justify-between items-center mb-8">
+        <div className="flex md:flex-row flex-col justify-between items-center space-y-2 min-md:space-y-0 mb-8">
           <div>
             <h1 className="bg-clip-text bg-gradient-to-r from-purple-600 to-blue-600 font-bold text-transparent text-4xl">
               ArtShare Documentation
             </h1>
             <p className="mt-2 text-gray-600">
-              Learn how to make the most of your creative platform
+              Learn how to use the most of your creative platform
             </p>
           </div>
           {onClose && (
             <button
               onClick={onClose}
-              className="flex items-center gap-2 px-4 py-2 text-gray-600 hover:text-gray-800 transition-colors"
+              className="flex items-center gap-2 bg-white shadow-sm p-2 rounded-lg w-full xs:w-fit font-medium text-gray-600 hover:text-gray-800 transition-colors"
             >
               <ArrowLeft size={20} />
               Back to App

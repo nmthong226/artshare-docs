@@ -19,7 +19,7 @@ const DocLayout: React.FC<DocLayoutProps> = ({ title, children }) => (
           <ArrowLeft size={20} />
           Back to all guides
         </Link>
-        <h1 className="mb-2 font-bold text-gray-900 text-3xl">
+        <h1 className="mb-2 font-bold text-gray-900 text-2xl">
           ArtShare Documentation – {title}
         </h1>
         <div className="bg-gradient-to-r from-purple-500 to-blue-500 rounded-full w-20 h-1"></div>
