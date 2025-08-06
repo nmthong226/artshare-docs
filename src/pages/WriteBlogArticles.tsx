@@ -8,7 +8,6 @@ const WriteBlogArticles: React.FC<{ onBack?: () => void }> = ({ onBack }) => (
       discussing industry trends, our rich editor helps you create engaging,
       professional articles.
     </p>
-    Generated code
     <section className="mb-8">
       <h2 className="mb-4 font-semibold text-gray-900 text-2xl">
         Starting Your Article

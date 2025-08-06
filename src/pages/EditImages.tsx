@@ -7,7 +7,6 @@ const EditImages: React.FC<{ onBack?: () => void }> = ({ onBack }) => (
       you're fine-tuning photos, adjusting AI-generated art, or creating
       composite images, our editor helps you achieve professional results.
     </p>
-    Generated code
     <section className="mb-8">
       <h2 className="mb-4 font-semibold text-gray-900 text-2xl">
         Accessing the Image Editor

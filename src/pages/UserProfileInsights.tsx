@@ -7,7 +7,6 @@ const UserProfileInsights: React.FC<{ onBack?: () => void }> = ({ onBack }) => (
       profile management and detailed insights into how your content performs
       and how your audience engages with your work.
     </p>
-    Generated code
     <section className="mb-8">
       <h2 className="mb-4 font-semibold text-gray-900 text-2xl">
         Profile Management

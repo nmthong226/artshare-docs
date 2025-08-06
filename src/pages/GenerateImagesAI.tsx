@@ -7,7 +7,6 @@ const GenerateImagesAI: React.FC<{ onBack?: () => void }> = ({ onBack }) => (
       Transform your ideas into stunning visual art using advanced AI models
       that understand artistic styles, techniques, and creative concepts.
     </p>
-    Generated code
     <section className="mb-8">
       <h2 className="mb-4 font-semibold text-gray-900 text-2xl">
         Getting Started with AI Generation

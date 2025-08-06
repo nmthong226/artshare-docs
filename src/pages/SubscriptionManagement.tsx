@@ -9,7 +9,6 @@ const SubscriptionManagement: React.FC<{ onBack?: () => void }> = ({
       you're a casual creator or a professional artist, we have plans that fit
       your needs and budget.
     </p>
-    Generated code
     <section className="mb-8">
       <h2 className="mb-4 font-semibold text-gray-900 text-2xl">
         Available Plans

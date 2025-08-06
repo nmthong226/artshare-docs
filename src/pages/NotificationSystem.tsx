@@ -7,7 +7,6 @@ const NotificationSystem: React.FC<{ onBack?: () => void }> = ({ onBack }) => (
       notification system. Get updates about likes, comments, follows, and
       important platform news without feeling overwhelmed.
     </p>
-    Generated code
     <section className="mb-8">
       <h2 className="mb-4 font-semibold text-gray-900 text-2xl">
         Understanding Your Notifications

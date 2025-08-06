@@ -8,7 +8,6 @@ const CreatePost: React.FC<{ onBack?: () => void }> = ({ onBack }) => (
       finished pieces, our creation tools help you present your work beautifully
       and reach the right audience.
     </p>
-    Generated code
     <section className="mb-8">
       <h2 className="mb-4 font-semibold text-gray-900 text-2xl">
         Creating Your First Post

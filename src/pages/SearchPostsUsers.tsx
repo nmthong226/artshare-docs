@@ -7,7 +7,6 @@ const SearchPostsUsers: React.FC<{ onBack?: () => void }> = ({ onBack }) => (
       filter system. Search for specific artworks, discover new creators, or
       explore content by keywords and tags.
     </p>
-    Generated code
     <section className="mb-8">
       <h2 className="mb-4 font-semibold text-gray-900 text-2xl">
         Using the Search System

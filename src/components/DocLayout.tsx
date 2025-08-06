@@ -30,7 +30,7 @@ const DocLayout: React.FC<DocLayoutProps> = ({ title, children }) => (
 
       {/* Footer */}
       <div className="mt-12 pt-8 border-gray-200 border-t">
-        <div className="flex justify-between items-center">
+        <div className="flex sm:flex-row flex-col justify-between items-start sm:items-center space-y-2 sm:space-y-0">
           <Link
             to="/"
             className="flex items-center gap-2 bg-purple-100 hover:bg-purple-200 px-4 py-2 rounded-lg text-purple-700 transition-colors"
